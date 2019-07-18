@@ -1,0 +1,37 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.carousel-item {
+    height: 65vh;
+    min-height: 350px;
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.bg-color{
+    background-color: #1289a7 !important;
+}
+.card-cours{
+    margin-top: 5%;
+}
+.cour-element{
+    transition: transform .2s; /* Animation */
+}
+.cour-element:hover{
+
+    transform: scale(1.1);
+
+}
+.page-footer{
+    background-color: #1289a7;
+    color: #ffffff;
+}
+.page-footer a{
+    color: #ffffff;
+}
+.text-decoration-none{
+    margin: 20px 20px;
+}
