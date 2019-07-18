@@ -2,7 +2,7 @@
 <nav class="navbar navbar-expand-lg navbar-dark bg-color fixed-top">
     <div class="container">
         <div><a class="navbar-brand" href="#"><span style="font-size: 20px">Web<span style="color: tomato">Dev</span>Laravel</span></a>
-            <p style="color:#fff;margin-top: -8px;font-size: 15px">le site de vos tutos !</p>
+            <p style="color:#dfe4ea;margin-top: -6px;font-size: 10px">" Learn Together and grow together "</p>
         </div>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>

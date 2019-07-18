@@ -54,8 +54,8 @@
             <div class="col-md-3 col-12 cour-element">
                 <div class="card shadow rounded" style="width: 18rem;">
                     <img class="card-img-top" src="{{asset("img/cours/php.png")}}" alt="Card image cap">
-                    <div class="card-title text-center mt-3 text-info">
-                        PHP
+                    <div class="card-title text-center text-uppercase mt-3 text-info">
+                        php
                     </div>
                     <div class="card-body mb-2 text-center">
                         <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
