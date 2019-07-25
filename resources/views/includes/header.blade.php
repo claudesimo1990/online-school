@@ -1,4 +1,80 @@
 <header>
+    <-- Register -->
+    <div class="modal fade mt-5" id="modalRegisterForm" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+         aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header text-center">
+                    <h4 class="modal-title font-weight-bold">S'enregistrer</h4>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <form action="{{route('register')}}" method="post">
+                    @csrf
+                    <div class="modal-body">
+                        <div class="form-group">
+                            <input type="text" id="orangeForm-name" class="form-control validate" name="name">
+                            <label data-error="wrong" data-success="right" for="orangeForm-name">Name</label>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="orangeForm-email" class="form-control validate" name="email">
+                            <label data-error="wrong" data-success="right" for="orangeForm-email">Email</label>
+                        </div>
+
+                        <div class="form-group">
+                            <input type="password" id="orangeForm-pass" class="form-control validate" name="password">
+                            <label data-error="wrong" data-success="right" for="orangeForm-pass">Password</label>
+                        </div>
+
+                        <div class="form-group">
+                            <input type="password" id="orangeForm-pass" class="form-control validate" name="password_confirmation">
+                            <label data-error="wrong" data-success="right" for="orangeForm-pass">Password Confirmation</label>
+                        </div>
+
+                    </div>
+                    <div class="modal-footer d-flex justify-content-center">
+                        <button type="submit" class="btn btn-deep-orange">S'enregistrer</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <-- End Register -->
+
+<-- login -->
+    <div class="modal fade mt-5" id="modalLoginForm" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+         aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header text-center">
+                    <h4 class="modal-title font-weight-bold">Se connecter</h4>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <form method="post">
+                    @csrf
+                    <div class="modal-body">
+                        <div class="form-group">
+                            <input type="text" id="orangeForm-name" class="form-control validate" name="email">
+                            <label data-error="wrong" data-success="right" for="orangeForm-name">Email</label>
+                        </div>
+
+                        <div class="form-group">
+                            <input type="password" id="orangeForm-pass" class="form-control validate" name="password">
+                            <label data-error="wrong" data-success="right" for="orangeForm-pass">Password</label>
+                        </div>
+
+                    </div>
+                    <div class="modal-footer d-flex justify-content-center">
+                        <button type="submit" class="btn btn-deep-orange">Se connecter</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <-- End login -->
     <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
         <ol class="carousel-indicators">
             <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>

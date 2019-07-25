@@ -4,7 +4,7 @@
         <div><a class="navbar-brand" href="#"><span style="font-size: 20px">Web<span style="color: tomato">Dev</span>Laravel</span></a>
             <p style="color:#dfe4ea;margin-top: -6px;font-size: 10px">" Learn Together and grow together "</p>
         </div>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#myModal" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarResponsive">
@@ -28,6 +28,12 @@
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#">Contact</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" data-toggle="modal" data-target="#modalLoginForm" href="#">Se connecter</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" data-toggle="modal" data-target="#modalRegisterForm" href="#">S'enregistrer</a>
                 </li>
             </ul>
         </div>
